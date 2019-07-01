@@ -1,0 +1,17 @@
+$colors: (
+	base:	#000000,
+	white:	#FFFFFF,
+	red:      #BE1E2D,
+	blue:     #2E358E,
+	beige:    #DDC09B
+);
+
+@function c($color:base) {
+	@return map-get($colors, $color);
+}
+
+//no borrar
+$colorForeground: c();
+$colorBackground: c(white);
+$colorFeatured: #464fc1;
+$colorError: #8A1010;

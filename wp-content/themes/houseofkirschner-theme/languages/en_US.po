@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: - The Shops Theme -\n"
+"POT-Creation-Date: 2018-06-28 07:41-0500\n"
+"PO-Revision-Date: 2018-06-28 07:48-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:5
+msgid "<span>404</span> ¡Lo sentimos! No encontramos la página"
+msgstr "<span>404</span> We Are Sorry, Page Not Found"
+
+#: 404.php:6
+msgid "Regresar"
+msgstr "Return"
+
+#: ajax/CltvoAjaxMail.php:156
+msgid "Error en envío."
+msgstr "Send error"
+
+#: ajax/CltvoAjaxMail.php:183
+msgid "Correo incorrecto"
+msgstr "Email format not correct!"
+
+#: ajax/CltvoAjaxMail.php:234
+msgid "Error en el envío mailForProvider"
+msgstr "Error in sending mailForProvider"
+
+#: ajax/CltvoAjaxMail.php:243
+msgid "Error en el envío mailForSuscriber"
+msgstr "Error in sending mailForSuscriber"
+
+#: footer.php:56 views/home/localizacion.php:18 views/home/localizacion.php:23
+msgid "Isabel la Catolica núm. 30 Centro Histórico, CDMX."
+msgstr "Isabel la Católica No. 30 historic centre, CDMX."
+
+#: framework/admin/metaboxes/Cltvo_SocialNet.php:88
+msgid "Horarios"
+msgstr "Timetable"
+
+#: framework/admin/metaboxes/Cltvo_SocialNet.php:132
+msgid "Nombre"
+msgstr "Name"
+
+#: framework/admin/metaboxes/Cltvo_SocialNet.php:141
+msgid "Link"
+msgstr "Link"
+
+#: framework/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:46
+msgid "Clik en la imagen para cambiar "
+msgstr "Click on the image to change"
+
+#: framework/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:60
+msgid "Agregar "
+msgstr "Add"
+
+#: framework/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:63
+msgid "Remover "
+msgstr "Remove"
+
+#: framework/admin/metaboxes/traits/Cltvo_Splash_Trait.php:37
+msgid "Imagen"
+msgstr "Image"
+
+#: framework/admin/metaboxes/traits/Cltvo_Splash_Trait.php:43
+msgid "Título "
+msgstr "Title"
+
+#: framework/admin/metaboxes/traits/Cltvo_Splash_Trait.php:50
+msgid "Subtítulo "
+msgstr "Subtitle"
+
+#: framework/theme/actions.php:14
+msgid "You cant delete this page."
+msgstr "You cant delete this page."
+
+#: framework/theme/ajax/Cltvo_Contact_Form.php:22
+msgid "El nombre es un campo requerido."
+msgstr "Name is required field"
+
+#: framework/theme/ajax/Cltvo_Contact_Form.php:23
+msgid "El email no es valido."
+msgstr "The email is not valid."
+
+#: framework/theme/ajax/Cltvo_Contact_Form.php:24
+msgid "El mensaje es un campo requerido."
+msgstr "The message is a required field."
+
+#: framework/theme/ajax/Cltvo_Contact_Form.php:31
+msgid "Llena todos los campos del formulario."
+msgstr "Fill in all the fields on the form."
+
+#: framework/theme/ajax/Cltvo_Contact_Form.php:45
+#: framework/theme/ajax/Cltvo_Contact_Form.php:60
+msgid "Llena todos los campos del formulario correctamente."
+msgstr "Fill all the form fields correctly."
+
+#: home.php:26
+msgid "Noticias"
+msgstr "News"
+
+#: page-home.php:19
+msgid "Últimas noticias"
+msgstr "Latest news"
+
+#: page-home.php:22 views/contact/newsletter.php:9
+msgid "compra las mejores marcas"
+msgstr "buy the best brands"
+
+#: page-prensa.php:17
+msgid "Prensa"
+msgstr "Press"
+
+#: search.php:10
+#, php-format
+msgid "Resultados de: %s"
+msgstr "Results of: %s"
+
+#: search.php:35
+msgid "No hay resultados que coincidan con tu búsqueda."
+msgstr "There are no results that match your search."
+
+#: searchform.php:4
+msgid "Buscar"
+msgstr "Search"
+
+#: views/contact/newsletter.php:7
+msgid "SUSCRÍBETE Y RECIBE NOTICIAS"
+msgstr "SUBSCRIBE AND RECEIVE NEWS"
+
+#: views/general/share.php:35
+msgid "Share"
+msgstr "Share"
+
+#: views/home/instagram.php:16
+msgid "¡Entérate! Siguenos en instagram"
+msgstr "Learn more about! Follow us on instagram"
+
+#: views/home/localizacion.php:9
+msgid "visitanos"
+msgstr "Visit us:"
+
+#: views/newsletter.php:43
+msgid "RECIBE NOTICIAS"
+msgstr "News Feed"
+
+#: views/newsletter.php:52
+msgid "ENVIAR"
+msgstr "SEND"
+
+#: views/post/tenant.php:23 views/sections/post-with-button-tenant.php:28
+#: views/sections/post-with-button.php:41 views/tenant/news.php:35
+msgid "Visita"
+msgstr "Visit"
+
+#: views/sections/post-with-button-press.php:24
+msgid "Ir"
+msgstr "Go"
+
+#: views/sections/post-with-button.php:29
+msgid "Leer más"
+msgstr "Read more"
+
+#: views/tenant/gallery.php:19
+msgid "Ir a la galería"
+msgstr "Go to Gallery"
+
+#: views/tenant/news.php:30
+msgid "PLANTA ALTA"
+msgstr "Upper floor"
+
+#. Theme Name of the plugin/theme
+msgid "- The Shops Theme -"
+msgstr "-The Shops Theme -"
+
+#. Description of the plugin/theme
+msgid "Configuración básica para cualquier tema desarrollado por El Cultivo"
+msgstr "Basic configuration for any theme developed by El Cultivo"
+
+#. Author of the plugin/theme
+msgid "El Cultivo"
+msgstr "El Cultivo"
+
+#. Author URI of the plugin/theme
+msgid "http://elcultivo.mx"
+msgstr "http://elcultivo.mx"

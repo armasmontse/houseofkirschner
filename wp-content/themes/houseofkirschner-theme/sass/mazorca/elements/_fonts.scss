@@ -1,0 +1,35 @@
+%fonts {
+    font-family: f(sans);
+    // font-size: 18px;
+    // line-height: 28px;
+}
+
+%TradeGothic, .TradeGothic {
+    @extend %fonts;
+    font-weight: normal;
+    font-style: normal;
+}
+
+%TradeGothic-Oblique, .TradeGothic-Oblique {
+    @extend %fonts;
+    font-weight: 500;
+    font-style: italic;
+}
+
+%TradeGothic-CondEighteen, .TradeGothic-CondEighteen {
+    @extend %fonts;
+    font-weight: 500;
+    font-style: normal;
+}
+
+%TradeGothic-BoldOblique, .TradeGothic-BoldOblique {
+    @extend %fonts;
+    font-weight: bold;
+    font-style: italic;
+}
+
+%TradeGothic-BoldCondTwenty, .TradeGothic-BoldCondTwenty {
+    @extend %fonts;
+    font-weight: bold;
+    font-style: normal;
+}

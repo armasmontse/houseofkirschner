@@ -1,0 +1,43 @@
+.first {
+
+    &__box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        @include under(sm){
+            flex-direction: column;
+        }
+    }
+
+    &__col {
+        width: 50%;
+        height: 100%;
+
+        @include under(sm){
+            width: 100%;
+        }
+
+        &--pink {
+            background-color: #2a2b2d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 100px;
+            font-size: 15px;
+            font-family: f(serif);
+            line-height: 21px;
+            color: #fff;
+            text-align: center;
+
+            @include under(xs){
+                padding: 20px;
+            }
+        }
+
+        &--green {
+            background-color: #6B8877;
+        }
+    }
+}

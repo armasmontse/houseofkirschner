@@ -1,0 +1,64 @@
+%input {
+    -webkit-appearance: none;
+    -moz-appereance: none;
+    appereance: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none;
+
+    @mixin placeholder-styles {
+    }
+
+    &::-webkit-input-placeholder { @include placeholder-styles; }
+    &:-moz-placeholder {@include placeholder-styles;}
+  	&::-moz-placeholder {@include placeholder-styles;}
+    &:-ms-input-placeholder { @include placeholder-styles;}
+}
+
+%input-search, .input-search {
+
+     width: 100%;
+     max-width: 253px;
+     height: 32px;
+     border:0px;
+
+
+     font-size: 18px;
+     line-height: 25px;
+     letter-spacing: 0.5px;
+     color: c();
+
+     &::placeholder {
+
+     }
+}
+
+%input-footer-newsletter {
+     @extend %input ;
+     @extend %TradeGothic ;
+     font-size: 18px ;
+     line-height: 30px ;
+     padding: 0 ;
+     background-color: transparent ;
+     border: 0 ;
+     border-bottom: 1px solid c(white) ;
+     color: c(beige) ;
+
+     &::placeholder {
+          color: c(white) ;
+          @extend %TradeGothic ;
+     }
+}
+
+%input-radio {
+     border-radius: 0 !important ;
+     width: 20px !important ;
+     height: 20px !important ;
+     border: 2px solid c(blue) ;
+}
+
+input[type="radio"]:checked {
+    background-color: c(blue) ;
+    border: 2px solid c(white) ;
+}

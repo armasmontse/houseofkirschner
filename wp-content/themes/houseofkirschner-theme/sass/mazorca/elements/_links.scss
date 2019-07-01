@@ -1,0 +1,73 @@
+%link {
+	cursor: pointer;
+	text-decoration: none;
+	&:hover,
+	&:active,
+	.selected {
+	}
+}
+
+// H E A D E R
+
+%link-menu-contact, .link-menu-contact {
+	@extend %link ;
+	@extend %TradeGothic-CondEighteen ;
+	font-size: 16px ;
+	letter-spacing: 2px ;
+	line-height: 20px ;
+}
+
+%links-menu-items, .links-menu-items {
+	@extend %link ;
+	@extend %TradeGothic-Oblique ;
+	font-size: 36px ;
+	line-height: 53px ;
+	text-transform: uppercase ;
+	@include under(break) {
+		font-size: 16px ;
+		line-height: 28px ;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		color: c(blue) ;
+		text-decoration: underline ;
+	}
+}
+
+
+
+// F O O T E R
+%link-redes, .link-redes {
+	@extend %TradeGothic-BoldCondTwenty ;
+	font-size: 28px ;
+	letter-spacing: 1.8px ;
+	line-height: 34px ;
+	text-transform: uppercase ;
+}
+
+%link-footer-contact-email, .link-footer-contact-email {
+	@extend %TradeGothic ;
+	font-size: 18px ;
+	line-height: 20px ;
+}
+
+%link-footer-contact-phone, .link-footer-contact-phone {
+	@extend %TradeGothic-CondEighteen ;
+	font-size: 16px ;
+	line-height: 20px ;
+	letter-spacing: 2px ;
+}
+
+%link-footer-navbar, .link-footer-navbar {
+	@extend %TradeGothic-Oblique ;
+	font-size: 14px ;
+	line-height: 20px ;
+}
+
+%link-back-home, .link-back-home {
+	@extend %TradeGothic-CondEighteen  ;
+	font-size: 13px ;
+	line-height: 20px ;
+	letter-spacing: 2px;
+}

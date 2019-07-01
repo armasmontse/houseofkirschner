@@ -1,0 +1,167 @@
+//_________________________ Config:Fuentes _________________________ \\
+
+/**
+ * Declare fonts using the Mixin
+ */
+
+/// Refer to font families through mapped variables.
+/// Font families must be written as lists, that is, between parenthesis.
+///
+///
+
+// Mentor Std
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-BoldItalic.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-BoldItalic.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-Italic.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-Italic.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-BlackItalic.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-BlackItalic.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-Black.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-Black.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-Bold.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-Bold.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-Light.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-Light.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Std';
+    src: url('../fonts/MentorStd/MentorStd-LightItalic.woff2') format('woff2'),
+        url('../fonts/MentorStd/MentorStd-LightItalic.woff') format('woff'),
+        url('../fonts/MentorStd/MentorStd-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+// Mentor Sans Std
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-LightItalic.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-LightItalic.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-Black.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-Black.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-BlackItalic.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-BlackItalic.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-Bold.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-Bold.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-Italic.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-Italic.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-BoldItalic.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-BoldItalic.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mentor Sans Std';
+    src: url('../fonts/MentorSansStd/MentorSansStd-Light.woff2') format('woff2'),
+        url('../fonts/MentorSansStd/MentorSansStd-Light.woff') format('woff'),
+        url('../fonts/MentorSansStd/MentorSansStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+$fonts:(
+	serif: 'Mentor Std',
+	sans: 'Mentor Sans Std',
+);
+
+@function f($font) {
+	@return map-get($fonts, $font);
+}

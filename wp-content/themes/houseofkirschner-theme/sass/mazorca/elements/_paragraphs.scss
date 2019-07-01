@@ -1,0 +1,88 @@
+%paragraph {
+
+}
+
+%paragraph-splash, .paragraph-splash {
+	@extend %TradeGothic-BoldCondTwenty ;
+	font-size: 19px;
+	line-height: 23px;
+     letter-spacing: 0.3px ;
+	text-transform: uppercase ;
+     @include under(break) {
+		font-size: 15px ;
+		line-height: 18px ;
+	}
+}
+
+
+%paragraph-cosecha, .paragraph-cosecha {
+     @extend %TradeGothic-BoldCondTwenty ;
+     font-size: 28px;
+	line-height: 34px;
+     letter-spacing: 1.8px ;
+	text-transform: uppercase ;
+}
+
+%paragraph-splash-description, .paragraph-splash-description {
+     @extend %TradeGothic ;
+     font-size: 18px;
+	line-height: 22px;
+     letter-spacing: 0.15px ;
+}
+
+%paragraph-marque, .paragraph-marque {
+     @extend %TradeGothic ;
+     font-size: 18px ;
+     line-height: 20px ;
+}
+
+%paragraph-about, .paragraph-about {
+     @extend %TradeGothic-BoldCondTwenty ;
+     font-size: 30px ;
+     line-height: 38px ;
+     letter-spacing: 1.8px ;
+     text-transform: uppercase ;
+	@include under(break) {
+		font-size: 20px ;
+	     line-height: 36px ;
+	}
+}
+
+%paragraph-about-services, .paragraph-about-services {
+     @extend %TradeGothic ;
+     font-size: 16px ;
+     line-height: 21px ;
+	color: c(white) ;
+}
+
+%paragraph-products-peso, .paragraph-products-peso {
+     @extend %TradeGothic-BoldOblique ;
+     font-size: 50px ;
+     line-height: 41px ;
+	color: c(blue) ;
+	@include under(break) {
+		font-size: 40px ;
+	}
+}
+
+%paragraph-products-cost, .paragraph-products-cost {
+     @extend %TradeGothic ;
+     font-size: 18px ;
+     line-height: 41px ;
+	letter-spacing: 2px ;
+	color: c(blue) ;
+}
+
+%paragraph-products-types, .paragraph-products-types {
+     @extend %TradeGothic-BoldCondTwenty ;
+	font-size: 45px;
+	line-height: 52px;
+	letter-spacing: 32px;
+	color: c(blue) ;
+	text-align: center;
+	@include under(break) {
+		font-size: 25px ;
+		line-height: 42px ;
+		letter-spacing: 20px ;
+	}
+}

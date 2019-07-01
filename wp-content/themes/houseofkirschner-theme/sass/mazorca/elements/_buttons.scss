@@ -1,0 +1,51 @@
+%button {
+     font-family: f(sans);
+     border: 2.75px solid c(blue);
+     background-color: transparent;
+     width: 216px;
+     height: 55px;
+     padding: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+%button-pedido, .button-pedido {
+     @extend %button;
+     color: c(blue);
+     font-size: 23px;
+     letter-spacing: 0;
+     text-transform: uppercase;
+     font-weight: bold;
+     // font-style: italic;
+     position: relative;
+     background-color: c(white) ;
+
+     span {
+          background-color: c(blue);
+          width: 168px;
+          position: absolute;
+          height: 13px;
+          left: 21px;
+          bottom: -15px;
+     }
+
+     &:hover {
+          color: c(red);
+          border: 2.75px solid c(red);
+
+          span {
+               background-color: c(red);
+          }
+     }
+}
+
+%button-footer-newsletter, .button-footer-newsletter {
+     @extend %TradeGothic-Oblique ;
+     background-color: transparent;
+     color: c(beige);
+     font-size: 18px;
+     line-height: 20px;
+     border: 0;
+}
